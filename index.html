@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Images.png" type="Pokeball">
+
+  </head>
+  <body>
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="ENTER POKEMON NAME" />
+      <button class="search-btn" onclick="getPoke()">
+        <img
+          src="https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Images.png"
+          alt="Pokeball"
+          class="pokeball-icon"
+        />
+      </button>
+    </div>
+    <div class="pokemon-container">
+      <div class="pokemon-details">
+        <h2 id="pokeName"></h2>
+        <p><span>Type:</span> <span id="pokeType"></span></p>
+        <p><span>Height:</span> <span id="pokeHeight"></span></p>
+        <p><span>Weight:</span> <span id="pokeWeight"></span></p>
+      </div>
+      <img src="https://www.pngmart.com/files/2/Pokemon-Ash-PNG-Image.png" id="pokemon" alt="Pokemon Image" />
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
